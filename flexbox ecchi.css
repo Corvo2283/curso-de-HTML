@@ -5,12 +5,12 @@
   }
   
   .photo-grid {
-    width: 15000px;
+    width: 30000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /* si no esta, rompe la estructura del sitio */
     flex-direction: row; /* column  row-reverse column-reverse row */
-    align-items: left;
+    /*align-items: left;*/
   }
   
  /* .photo-grid-item {
