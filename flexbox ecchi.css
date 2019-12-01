@@ -1,0 +1,21 @@
+ 
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 15000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* si no esta, rompe la estructura del sitio */
+    flex-direction: row; /* column  row-reverse column-reverse row */
+    align-items: left;
+  }
+  
+ /* .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 900px;
+  }*/
+  
