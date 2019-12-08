@@ -1,21 +1,18 @@
- 
-  .photo-grid-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .photo-grid {
-    width: 30000px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* si no esta, rompe la estructura del sitio */
-    flex-direction: row; /* column  row-reverse column-reverse row */
-    /*align-items: left;*/
-  }
-  
- /* .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
-    height: 900px;
-  }*/
-  
+.padre{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 320px;
+  margin: 20px;
+  height: 480px;
+  opacity: .5;
+}
+
+img:hover{
+  opacity: 1;
+  cursor: pointer;
+}

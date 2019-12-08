@@ -1,0 +1,14 @@
+.redes-sociales{
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+  .redes-sociales.img{
+    width: 30px;
+    margin: 20px;
+    height: 30px;
+    opacity: .5;
+  }
